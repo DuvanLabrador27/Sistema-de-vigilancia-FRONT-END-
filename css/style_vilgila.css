@@ -19,6 +19,7 @@ h4{
 
 .dropdown-menu {
     margin: 17px;
+   
     background: #262a34;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
@@ -50,7 +51,7 @@ h4{
     color: #fff;
     min-width: 250px;
     min-height: 100vh;
-    padding: 0;
+   padding: 0;
 }
 
 .barra-lateral a {
