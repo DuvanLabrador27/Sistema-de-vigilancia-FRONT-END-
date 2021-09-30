@@ -197,3 +197,7 @@ th{
         overflow: visible;
     }
 }
+
+.z-100{
+    z-index: 100 !important;
+}

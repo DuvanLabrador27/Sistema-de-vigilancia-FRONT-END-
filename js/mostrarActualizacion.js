@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $('#admin-tabla').click(function(){
        $("#contenido").load("perfilAdministrador.html");
@@ -7,4 +8,9 @@ $(document).ready(function(){
        $("#contenido").load("tabla.html");
                                  });
 
+    $('#vigilante').click(function(){
+      $("#contenido-2").load("perfilVigilante.html");
+                                });
+
                             });
+                        
