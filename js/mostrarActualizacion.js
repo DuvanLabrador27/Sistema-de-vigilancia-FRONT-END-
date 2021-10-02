@@ -9,3 +9,6 @@ $('#personal').click(function(){
 $('#vigilante').click(function(){
   $("#contenido-2").load("perfilVigilante.html");
 });
+$("#visitante").click(function(){
+  $("#contenido-3").load("form_visitante.html")
+});
