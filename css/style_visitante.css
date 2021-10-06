@@ -1,13 +1,12 @@
+.label1{
 
- .label1{
+  font-size: 16px;
 
-    font-size: 16px;
+  display: block;
   
-    display: block;
-    
 }
 
- .input1{
+.input1{
 
 width: 300px;
 font-size: 14px;
@@ -16,18 +15,54 @@ margin-bottom: 10px;
 display: block;
 
 
- }
- .contenedor{
-margin-left: 300px;
+}
+.contenedor{
+margin-left: 70px;
 margin-bottom: 60px;
 
 
- }
+}
 h4{
-margin-bottom: 10px;
-  margin-left: 420px;
-  color: blue;
+margin: 10px;
+margin-left: 610px;
+margin-bottom: 20px;
+color: black;
+
 
 }
 
+
+form{
+width: 335px;
+padding: 16px;
+border-radius: 15px;
+margin:  auto;
+background-color: #ccc;
+}
+
+form label{
+width: 72px;
+font-weight: bold;
+display:inline-block;
+}
+
+form input[type="text"],
+form input[class="date"]
+{
+width: 300px;
+padding: 3px 20px;
+border: 1px solid #f6f6f6;
+border-radius: 3px;
+background-color: #f6f6f6;
+margin: 8px 0;
+display: inline-block;
+}
+
+form input[class="btn"]:hover{
+cursor: pointer;
+} 
+
+.btn{
+background: #09b8e4;
+}
 
